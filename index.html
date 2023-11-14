@@ -3,12 +3,16 @@
   <p1>
     Hello! We are cool!
   </p1> 
-  <input type = "Button" id = "Button" onclick = "Lol()"> 
+  <input type = "Button" id = "B45" onclick = "Lol()"> 
   <script> 
     let a = 0
+    const ab = getElementById("B45")
     function Lol(){
       a++;
        localStorage.setItem("myCat", a)
+      if (a != 40){
+        ab.Disabled = true
+      }
     }
   </script>
 </Body>
