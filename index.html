@@ -5,6 +5,10 @@
   </p1> 
   <input type = "Button" id = "Button" onclick = "Lol()"> 
   <script> 
-    function Lol(){localStorage.setItem("myCat", "a")}
+    let a = 0
+    function Lol(){
+      a++;
+       localStorage.setItem("myCat", a)
+    }
   </script>
 </Body>
