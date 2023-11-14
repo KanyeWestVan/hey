@@ -1,1 +1,1 @@
-
+localStorage.setItem("myCat", "Tom");
