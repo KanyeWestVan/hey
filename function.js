@@ -1,3 +1,5 @@
+let a = 0
 function Lol(){
-localStorage.setItem("myCat", "Tom");
+  a++
+localStorage.setItem("myCat", a);
 }
