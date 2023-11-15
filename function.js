@@ -1,6 +1,6 @@
     let a = 0
     const ab = document.getElementById("button")
-    Alert("Hello!")
+    alert("Hello!")
     function Lol(){
       a++;
        localStorage.setItem(a,a)
