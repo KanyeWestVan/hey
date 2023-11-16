@@ -20,7 +20,3 @@ function Lol(){
             window.location.replace("https://thedoortester.netlify.app/");
     }
     //i wont let you leave
-    window.onbeforeunload = function(){
-        Looptest();
-        alert("hBye");
-    };
