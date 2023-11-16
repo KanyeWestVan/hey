@@ -1,5 +1,5 @@
     let a = 0
-    const ab = document.getElementById("button")
+    const ab = document.getElementById("B45")
     ab.style.scale = "2 0.7"
 function Lol(){
       a++;
