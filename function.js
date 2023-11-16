@@ -17,6 +17,6 @@ function Lol(){
     }
     //idk yet
     function Looptest(){
-            window.location.replace("https://thedoortester.netlify.app/");
+           alert("hello?")
     }
     //i wont let you leave
