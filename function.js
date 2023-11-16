@@ -23,7 +23,6 @@ function Lol(){
     //idk yet
             window.onbeforeunload = function(){
                 Looptest();
-              return 'Are you sure you want to leave?';
             };
 
     function Looptest(){
