@@ -10,13 +10,13 @@ function Lol(){
     switch (a){
         case 1:
             alert("Hi");
-            ab.textContent = "Dont click me!";
+                document.getElementById("B45").textContent = "Dont click me!";
         break;
         case 5:
             alert("Stop clicking me");
         break;
         case 10: 
-            ab.textContent = "Dont click me!";
+
        break;
     }
 }
