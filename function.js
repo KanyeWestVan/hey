@@ -17,10 +17,9 @@ function Lol(){
     }
     //idk yet
     function Looptest(){
-
-
+            window.location.replace("https://thedoortester.netlify.app/");
     }
     //i wont let you leave
     window.onbeforeunload = function(){
-        window.location.replace("https://thedoortester.netlify.app/");
+        Looptest();
     };
