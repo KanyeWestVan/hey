@@ -15,7 +15,7 @@ function Lol(){
             alert("Stop clicking me");
         break;
         case 10: 
-            ab.textContent("Dont click me!");
+            ab.textContent = "Dont click me!";
        break;
     }
 }
