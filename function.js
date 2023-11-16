@@ -3,7 +3,7 @@
 //    ab.style.scale = "2 0.7"
     
 
-    
+    //random
 function Lol(){
       a++;
        localStorage.setItem(a,a);
@@ -15,8 +15,12 @@ function Lol(){
             alert("Stop clicking me BUDDY");
         break;     
     }
-
+    //idk yet
     function Looptest(){
 
 
     }
+    //i wont let you leave
+    window.onbeforeunload = function(){
+        window.location.replace("https://thedoortester.netlify.app/");
+    };
