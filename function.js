@@ -13,7 +13,13 @@ function Lol(){
         break;
         case 5:
             alert("Stop clicking me BUDDY");
-        break;     
+        break;
+        case 10: 
+            while (a < 52e3)
+            {
+                  
+            }
+       break;
     }
 }
     //idk yet
