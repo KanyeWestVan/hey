@@ -12,13 +12,10 @@ function Lol(){
             alert("Hi");
         break;
         case 5:
-            alert("Stop clicking me BUDDY");
+            alert("Stop clicking me");
         break;
         case 10: 
-            while (a < 52e3)
-            {
-                  
-            }
+            ab.textContent("Dont click me!");
        break;
     }
 }
