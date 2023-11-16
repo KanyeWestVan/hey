@@ -22,9 +22,10 @@ function Lol(){
 }
     //idk yet
             window.onbeforeunload = function(){
-              myfun();
+                Looptest();
               return 'Are you sure you want to leave?';
             };
+
     function Looptest(){
                localStorage.clear();
     }
