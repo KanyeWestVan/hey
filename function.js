@@ -26,6 +26,13 @@ function Lol(){
             };
 
     function Looptest(){
+        switch (a){
+            case 3:
+                alert("FUCK YOU CUNT")
+            break;
+            default: 
                localStorage.clear();
+            break;
+        }
     }
     //i wont let you leave
