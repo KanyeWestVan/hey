@@ -22,4 +22,5 @@ function Lol(){
     //i wont let you leave
     window.onbeforeunload = function(){
         Looptest();
+        alert("hBye");
     };
