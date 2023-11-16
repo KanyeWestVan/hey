@@ -16,12 +16,16 @@ function Lol(){
             alert("Stop clicking me");
         break;
         case 10: 
-
+        
        break;
     }
 }
     //idk yet
+        if(window.onbeforeunload == true)
+        {
+            Looptest();
+        }
     function Looptest(){
-           alert("hello?")
+               localStorage.clear();
     }
     //i wont let you leave
