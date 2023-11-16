@@ -4,7 +4,7 @@
 function Lol(){
       a++;
        localStorage.setItem(a,a)
-    if (a = 5) {
+    if (a < 5) {
           alert("Hello!")
       } 
     }
