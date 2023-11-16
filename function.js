@@ -10,6 +10,7 @@ function Lol(){
     switch (a){
         case 1:
             alert("Hi");
+            ab.textContent = "Dont click me!";
         break;
         case 5:
             alert("Stop clicking me");
