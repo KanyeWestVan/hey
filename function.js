@@ -21,10 +21,10 @@ function Lol(){
     }
 }
     //idk yet
-        if(window.onbeforeunload == true)
-        {
-            Looptest();
-        }
+            window.onbeforeunload = function(){
+              myfun();
+              return 'Are you sure you want to leave?';
+            };
     function Looptest(){
                localStorage.clear();
     }
