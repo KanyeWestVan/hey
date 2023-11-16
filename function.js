@@ -15,6 +15,7 @@ function Lol(){
             alert("Stop clicking me BUDDY");
         break;     
     }
+}
     //idk yet
     function Looptest(){
            alert("hello?")
