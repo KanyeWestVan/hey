@@ -17,7 +17,7 @@ function Lol(){
             alert("Stop clicking me");
         break;
         case 10: 
-            if !(b == 10) {
+            if (b != 10) {
                 a = 0;
                          }
             localStorage.clear();
