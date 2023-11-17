@@ -7,9 +7,8 @@
     //random
 function Lol(){
       a++;
-    
        localStorage.setItem(a,a);
-        if (a < 5 && b < 1)
+        if (b < 1)
         {
             document.getElementById("B45").textContent = "Dont click me! " + a;
         }
