@@ -14,7 +14,7 @@ function Lol(){
         }
         else if (1 < b)
         {
-            document.getElementById("B45").textContnet = "STOP CLICKING ME!" + a;
+            document.getElementById("B45").textContent = "STOP CLICKING ME!" + a + b;
         }
 
 
