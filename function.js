@@ -12,7 +12,7 @@ function Lol(){
         {
             document.getElementById("B45").textContent = "Dont click me! " + a;
         }
-        else
+        else if (1 < b)
         {
             document.getElementById("B45").textContnet = "STOP CLICKING ME!" + a;
         }
