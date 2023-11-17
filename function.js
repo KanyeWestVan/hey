@@ -1,5 +1,5 @@
     let a = 0;
-    let b = 0; 
+    let b = 1; 
     const ab = document.getElementById("B45");
 //    ab.style.scale = "2 0.7"
     
@@ -8,11 +8,11 @@
 function Lol(){
       a++;
        localStorage.setItem(a,a);
-        if (b < 1)
+        if (b <= 1)
         {
             document.getElementById("B45").textContent = "Dont click me! " + a;
         }
-        else if (1 < b)
+        else
         {
             document.getElementById("B45").textContent = "good luck" + a + b;
         }
