@@ -8,7 +8,7 @@
 function Lol(){
       a++;
        localStorage.setItem(a,a);
-        document.getElementById("B45").textContent = "Dont click me!" + a;
+        document.getElementById("B45").textContent = "Dont click me! " + a + " " + b;
     switch (a){
         case 1:
             alert("Hi");
@@ -17,10 +17,13 @@ function Lol(){
             alert("Stop clicking me");
         break;
         case 10: 
-        a = 0;
-        localStorage.clear();
+            if !(b == 10) {
+                a = 0;
+                         }
+            localStorage.clear();
             b++;
        break;
+
         
     }
 }
@@ -32,7 +35,7 @@ function Lol(){
     function Looptest(){
         switch (a){
             case 3:
-                alert("FUCK YOU")
+                alert("uh oh");
             break;
             default: 
                localStorage.clear();
