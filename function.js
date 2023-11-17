@@ -28,7 +28,7 @@ function Lol(){
     function Looptest(){
         switch (a){
             case 3:
-                alert("FUCK YOU CUNT")
+                return "FUCK YOU"
             break;
             default: 
                localStorage.clear();
