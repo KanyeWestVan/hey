@@ -10,11 +10,11 @@ function Lol(){
        localStorage.setItem(a,a);
         if (b <= 1)
         {
-            document.getElementById("B45").textContent = "Dont click me! " + a;
+            document.getElementById("B45").textContent = "good luck" + a + b;
         }
         else
         {
-            document.getElementById("B45").textContent = "good luck" + a + b;
+            document.getElementById("B45").textContent = "Dont click me! " + a;
         }
 
 
