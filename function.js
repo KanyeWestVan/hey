@@ -4,9 +4,21 @@
 //    ab.style.scale = "2 0.7"
     
 
-    //random
+    //random function
+        function getRandomInt(max) {
+          return Math.floor(Math.random() * max);
+        }   
+    //random variables
+        let x1 = getRandomInt(300);
+        let x2 = getRandomInt(300);
+        let y1 = getRandomInt(300);
+        let y2 = getRandomInt(300);
+    //Button Function
 function Lol(){
       a++;
+
+    
+    //stuff
        localStorage.setItem(a,a);
         if (b > 1)
         {
@@ -19,7 +31,7 @@ function Lol(){
 
 
 
-    
+    //switch
     switch (a){
         case 1:
             alert("Hi"); 
@@ -44,8 +56,7 @@ function Lol(){
     //idk yet
             window.onbeforeunload = function(){
                 Looptest();
-            };
-
+            }
     function Looptest(){
         switch (a){
             case 3:
