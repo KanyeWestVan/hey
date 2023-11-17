@@ -19,8 +19,11 @@ function Lol(){
         case 10: 
             if (b != 10) {
                 a = 0;
-                         }
-            localStorage.clear();
+                    }
+                    else
+                { 
+                localStorage.clear();
+                }
             b++;
        break;
 
