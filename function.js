@@ -10,13 +10,14 @@ function Lol(){
     switch (a){
         case 1:
             alert("Hi");
-                document.getElementById("B45").textContent = "Dont click me!";
+                document.getElementById("B45").textContent = "Dont click me!" + a;
         break;
         case 5:
             alert("Stop clicking me");
         break;
         case 10: 
-        
+        a = 0
+        localStorage.clear();
        break;
     }
 }
