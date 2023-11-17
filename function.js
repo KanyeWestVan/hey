@@ -8,9 +8,9 @@
 function Lol(){
       a++;
        localStorage.setItem(a,a);
-        if (b <= 1)
+        if (b > 1)
         {
-            document.getElementById("B45").textContent = "good luck" + a + b;
+            document.getElementById("B45").textContent = "good luck" + a + " " + b;
         }
         else
         {
