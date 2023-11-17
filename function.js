@@ -7,11 +7,23 @@
     //random
 function Lol(){
       a++;
+    
        localStorage.setItem(a,a);
-        document.getElementById("B45").textContent = "Dont click me! " + a;
+        if (a < 5 && b < 1)
+        {
+            document.getElementById("B45").textContent = "Dont click me! " + a;
+        }
+        else
+        {
+            document.getElementById("B45").textContnet = "STOP CLICKING ME!" + a + b;
+        }
+
+
+
+    
     switch (a){
         case 1:
-            alert("Hi");
+            alert("Hi"); 
         break;
         case 5:
             alert("Stop clicking me");
