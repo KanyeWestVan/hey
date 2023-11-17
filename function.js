@@ -1,4 +1,5 @@
     let a = 0;
+    let b = 0; 
     const ab = document.getElementById("B45");
 //    ab.style.scale = "2 0.7"
     
@@ -16,9 +17,11 @@ function Lol(){
             alert("Stop clicking me");
         break;
         case 10: 
-        a = 0
+        a = 0;
         localStorage.clear();
+            b++;
        break;
+        
     }
 }
     //idk yet
@@ -29,7 +32,7 @@ function Lol(){
     function Looptest(){
         switch (a){
             case 3:
-                return "FUCK YOU"
+                alert("FUCK YOU")
             break;
             default: 
                localStorage.clear();
