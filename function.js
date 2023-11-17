@@ -8,7 +8,7 @@
 function Lol(){
       a++;
        localStorage.setItem(a,a);
-        document.getElementById("B45").textContent = "Dont click me! " + a;;
+        document.getElementById("B45").textContent = "Dont click me! " + a;
     switch (a){
         case 1:
             alert("Hi");
