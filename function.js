@@ -13,12 +13,10 @@
         let x2 = getRandomInt(300);
         let y1 = getRandomInt(300);
         let y2 = getRandomInt(300);
-    ab.style.left = x1;
     //Button Function
 function Lol(){
       a++;
-
-    
+        document.getElementById("B45").style.left = '${x1}px';
     //stuff
        localStorage.setItem(a,a);
         if (b > 1)
