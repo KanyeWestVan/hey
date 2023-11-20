@@ -10,7 +10,7 @@
         }   
      //random variables
         let x1 = getRandomInt(300);
-                document.getElementById("B45").style.left = x1px;
+                document.getElementById("B45").style.left = x1;
         let x2 = getRandomInt(300);
         let y1 = getRandomInt(300);
         let y2 = getRandomInt(300);
