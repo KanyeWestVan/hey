@@ -33,7 +33,7 @@ function Lol(){
     //switch
     switch (a){
         case 1:
-            alert("Hi"); 
+            alert("${x1}px"); 
         break;
         case 5:
             alert("Stop clicking me");
