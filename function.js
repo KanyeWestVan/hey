@@ -8,19 +8,17 @@
         function getRandomInt(max) {
           return Math.floor(Math.random() * max);
         }   
-
-    //Button Function
-function Lol(){
-    
-        //random variables
+     //random variables
         let x1 = getRandomInt(300);
         let x2 = getRandomInt(300);
         let y1 = getRandomInt(300);
         let y2 = getRandomInt(300);
-
-    
+    //Button Function
+function Lol(){
+        
       a++;
         document.getElementById("B45").style.left = x1;
+        document.getElementById("B45").style.right = x1;
     //stuff
        localStorage.setItem(a,a);
 
