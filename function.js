@@ -13,6 +13,7 @@
         let x2 = getRandomInt(300);
         let y1 = getRandomInt(300);
         let y2 = getRandomInt(300);
+    ab.style.left = x1;
     //Button Function
 function Lol(){
       a++;
@@ -30,7 +31,7 @@ function Lol(){
         }
 
 
-
+        
     //switch
     switch (a){
         case 1:
