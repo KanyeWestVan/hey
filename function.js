@@ -16,7 +16,7 @@
     //Button Function
 function Lol(){
       a++;
-        document.getElementById("B45").style.left = '${x1}px';
+        document.getElementById("B45").style.left = x1 px;
     //stuff
        localStorage.setItem(a,a);
         if (b > 1)
@@ -33,7 +33,7 @@ function Lol(){
     //switch
     switch (a){
         case 1:
-            alert("${x1}px"); 
+            alert(x1px); 
         break;
         case 5:
             alert("Stop clicking me");
