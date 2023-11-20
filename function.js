@@ -8,17 +8,23 @@
         function getRandomInt(max) {
           return Math.floor(Math.random() * max);
         }   
-    //random variables
+
+    //Button Function
+function Lol(){
+    
+        //random variables
         let x1 = getRandomInt(300);
         let x2 = getRandomInt(300);
         let y1 = getRandomInt(300);
         let y2 = getRandomInt(300);
-    //Button Function
-function Lol(){
+
+    
       a++;
-        document.getElementById("B45").style.left = x1 + 'px';
+        document.getElementById("B45").style.left = x1;
     //stuff
        localStorage.setItem(a,a);
+
+    
         if (b > 1)
         {
             document.getElementById("B45").textContent = "good luck " + "a = " + a + "b =" + b;
