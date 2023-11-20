@@ -18,7 +18,7 @@ function Lol(){
         
       a++;
         document.getElementById("B45").style.left = x1;
-        document.getElementById("B45").style.right = x1;
+        document.getElementById("B45").style.right = x2;
     //stuff
        localStorage.setItem(a,a);
 
