@@ -5,7 +5,7 @@
       //this helps progress
       c:0,
       //this also progresses
-      d:0,
+      d:0
       //this is not known yet
     };
 //    ab.style.scale = "2 0.7"
