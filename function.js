@@ -25,6 +25,7 @@
     switch (a.b){
       case 1:
        document.getElementById("B45").textContent = "Good Luck";
+        
       break;
       
       default: 
@@ -37,7 +38,8 @@
     if (a.b >= 1){
     switch (a.a){
         case 1:
-            alert("Hello!"); 
+            document.getElementById("P1").textContent = "1475 1846 358 300";
+            alert("First is the most important"); 
         break;
         case 5:
             alert("Stop?");
