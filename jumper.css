@@ -1,8 +1,12 @@
 #B45 {
-   position: absolute;
+  visibility: hidden;
+   position: fixed;
   width:50px;
-  length:50px;
-  left:200px;
+  left:250px;
   right:500px; 
-  size:50px;
+  height:50px;
+}
+#P1{
+  position: fixed;
+  bottom:90px;
 }
