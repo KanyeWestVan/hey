@@ -86,10 +86,12 @@
               bottom1:getRandomInt(500),
               top1:getRandomInt(453)
             };
+            if (a != 1 && b != 1){
           document.getElementById("P1").textContent = cords.left1 +  " " + cords.right1 + " " + cords.top1 + " " + cords.bottom1;
           };
+        };
         setInterval(tester4, 0);
 
         
 
-    //i wont let you 
+    //i wont let you
