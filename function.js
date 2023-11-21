@@ -1,71 +1,93 @@
-    let a = 0;
-    let b = 1; 
-    const ab = document.getElementById("B45");
+    let a = {
+      a:0,
+      //main value of the thing
+      b:0,
+      //this helps progress
+      c:0,
+      //this also progresses
+      d:0
+      //this is not known yet
+    };
 //    ab.style.scale = "2 0.7"
-    
-
+  
     //random function
         function getRandomInt(max) {
           return Math.floor(Math.random() * max);
-        }   
-     //random variables
-        let x1 = getRandomInt(300);
-                document.getElementById("B45").style.left = x1;
-        let x2 = getRandomInt(300);
-        let y1 = getRandomInt(300);
-        let y2 = getRandomInt(300);
+        };   
     //Button Function
-function Lol(){
-      a++;
+  function Lol(){
+      a.a++;
     //stuff
-       localStorage.setItem(a,a);
+       localStorage.setItem(a.a,a.a);
+  
+    if (a.a == 10){a.a = 0; a.b++;};
 
+    switch (a.b){
+      case 1:
+       document.getElementById("B45").textContent = "Good Luck";
+      break;
+      
+      default: 
+        document.getElementById("B45").textContent = "Do not click!";
+      break;
+    };
     
-        if (b > 1)
-        {
-            document.getElementById("B45").textContent = "good luck " + "a = " + a + "b =" + b;
-        }
-        else
-        {
-            document.getElementById("B45").textContent = "Dont click me! " + a;
-        }
-
-
-        
+      
     //switch
-    switch (a){
+    if (a.b >= 1){
+    switch (a.a){
         case 1:
-            alert(x1); 
+            alert("Hello!"); 
         break;
         case 5:
-            alert("Stop clicking me");
+            alert("Stop?");
         break;
+        case 6:
+        if (a.c < 1) {
+            document.getElementById("B45").textContent = "Go away";
+            document.getElementById("B45").disabled = true;
+            
+          };
+        break; 
+          case 0560:
+          document.getElementById("B45").disabled = false;
+            a.a = 0
+          a.c++;
+          break;
         case 10: 
-            if (b != 10) {
-                a = 0;
-                    }
-                    else
-                { 
-                localStorage.clear();
-                }
-            b++;
        break;
-
+    };
         
-    }
-}
+    };
+};
     //idk yet
             window.onbeforeunload = function(){
                 Looptest();
-            }
-    function Looptest(){
-        switch (a){
+            };
+            
+      function Looptest(){
+        switch (a.a){
             case 3:
-                alert("uh oh");
+               return;
             break;
             default: 
                localStorage.clear();
             break;
-        }
-    }
-    //i wont let you leave
+          };
+      };
+      
+      
+        function tester4(){
+            let cords = {
+              left1:getRandomInt(1004),
+              right1:getRandomInt(1342),
+              bottom1:getRandomInt(500),
+              top1:getRandomInt(453)
+            };
+          document.getElementById("P1").textContent = cords.left1 +  " " + cords.right1 + " " + cords.top1 + " " + cords.bottom1;
+          };
+        setInterval(tester4, 0);
+
+        
+
+    //i wont let you 
