@@ -7,7 +7,6 @@
       //this also progresses
       d:0,
       //this is not known yet
-      e:1
     };
 //    ab.style.scale = "2 0.7"
   
@@ -91,7 +90,7 @@
           document.getElementById("P1").textContent = cords.left1 +  " " + cords.right1 + " " + cords.top1 + " " + cords.bottom1;
           };
         };
-        setInterval(tester4);
+        setInterval(tester4, 1);
 
         
 
