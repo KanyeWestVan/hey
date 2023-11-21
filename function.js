@@ -89,9 +89,9 @@
             };
             if (a.b <== 1){
           document.getElementById("P1").textContent = cords.left1 +  " " + cords.right1 + " " + cords.top1 + " " + cords.bottom1;
-          }else{a.e = 2000}
+          };
         };
-        setInterval(tester4, a.e);
+        setInterval(tester4);
 
         
 
