@@ -5,8 +5,9 @@
       //this helps progress
       c:0,
       //this also progresses
-      d:0
+      d:0,
       //this is not known yet
+      e:1
     };
 //    ab.style.scale = "2 0.7"
   
@@ -88,9 +89,9 @@
             };
             if (a.b <== 1){
           document.getElementById("P1").textContent = cords.left1 +  " " + cords.right1 + " " + cords.top1 + " " + cords.bottom1;
-          };
+          }else{e = 2000}
         };
-        setInterval(tester4, 0);
+        setInterval(tester4, e);
 
         
 
